@@ -1,7 +1,7 @@
 {
   "name": "Customers List Tour 2025",
   "short_name": "Customers List",
-  "start_url": "The URL that should be loadehttps://paulopinto87.github.io/customers-list/d when your application is opened",
+  "start_url": "./customers-list/index.html",
   "display": "standalone",
   "description": "A description for your application",
   "lang": " The default language of your application",
