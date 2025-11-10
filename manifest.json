@@ -1,10 +1,10 @@
 {
   "name": "Customers List Tour 2025",
   "short_name": "Customers List",
-  "start_url": "./customers-list/index.html",
+  "start_url": "https://paulopinto87.github.io/customers-list/",
   "display": "standalone",
   "description": "A description for your application",
-  "lang": " The default language of your application",
+  "lang": "en",
   "dir": "auto",
   "theme_color": "#000000",
   "background_color": "#000000",
@@ -56,5 +56,6 @@
       "url": "The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
       "description": "A description of the functionality of this shortcut"
     }
-  ]
+  ],
+  "scope": "https://paulopinto87.github.io/customers-list/"
 }
