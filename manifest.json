@@ -1,13 +1,13 @@
 {
   "name": "Customers List Tour 2025",
   "short_name": "Customers List",
-  "start_url": "https://paulopinto87.github.io/customers-list/",
+  "start_url": "./index.html",
   "display": "standalone",
   "description": "A description for your application",
   "lang": "en",
   "dir": "auto",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#00A6A0",
+  "background_color": "#ffffff",
   "orientation": "any",
   "icons": [
     {
