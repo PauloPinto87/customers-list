@@ -61,11 +61,13 @@ input#filterLocation {
   line-height: 1.4;
 }
 .flag {
-  width: 32px;
+  width: 40px;
   height: auto;
   vertical-align: middle; /* para alinhar com o texto */
   margin: 0 8px;
-} /* Responsividade para telas médias (tablet) */
+} 
+
+/* Responsividade para telas médias (tablet) */
 @media (min-width: 600px) {
   h1 {
     font-size: 1.6rem;
