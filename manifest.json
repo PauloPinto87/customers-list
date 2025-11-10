@@ -1,7 +1,7 @@
 {
   "name": "Customers List Tour 2025",
   "short_name": "Customers List",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
   "description": "A description for your application",
   "lang": "en",
