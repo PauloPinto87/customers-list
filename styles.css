@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 16px;
   color: #005f5a;
   text-align: center; /* centraliza o título para dar melhor visual */
@@ -17,7 +17,7 @@ h1 {
 input#filterLocation {
   width: 100%;
   padding: 8px;
-  font-size: 4rem;
+  font-size: 1rem;
   margin-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -38,7 +38,7 @@ input#filterLocation {
   background-color: #007f78;
 }
 .client .title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 6px;
 }
@@ -57,7 +57,7 @@ input#filterLocation {
 }
 .client .details p {
   margin: 4px 0;
-  font-size: 4.4rem; /* reduzi de 0.9rem para 0.85rem para texto mais contido */
+  font-size: 1.4rem; /* reduzi de 0.9rem para 0.85rem para texto mais contido */
   line-height: 1.4;
 }
 .flag {
@@ -81,6 +81,6 @@ input#filterLocation {
     font-size: 2.8rem;
   }
   .client .details p {
-    font-size: 4.2rem;
+    font-size: 2.2rem;
   }
 }
