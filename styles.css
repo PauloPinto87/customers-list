@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 16px;
   color: #005f5a;
   text-align: center; /* centraliza o título para dar melhor visual */
@@ -70,7 +70,7 @@ input#filterLocation {
 /* Responsividade para telas médias (tablet) */
 @media (min-width: 600px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .client {
     padding: 16px;
