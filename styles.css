@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 30px;
 }
 body {
   font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 16px;
   color: #005f5a;
   text-align: center; /* centraliza o título para dar melhor visual */
@@ -17,7 +17,7 @@ h1 {
 input#filterLocation {
   width: 100%;
   padding: 8px;
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -38,7 +38,7 @@ input#filterLocation {
   background-color: #007f78;
 }
 .client .title {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 6px;
 }
@@ -57,7 +57,7 @@ input#filterLocation {
 }
 .client .details p {
   margin: 4px 0;
-  font-size: 1.4rem; /* reduzi de 0.9rem para 0.85rem para texto mais contido */
+  font-size: 2.4rem; /* reduzi de 0.9rem para 0.85rem para texto mais contido */
   line-height: 1.4;
 }
 .flag {
@@ -70,7 +70,7 @@ input#filterLocation {
 /* Responsividade para telas médias (tablet) */
 @media (min-width: 600px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .client {
     padding: 16px;
@@ -78,9 +78,9 @@ input#filterLocation {
     margin-right: 16px;
   }
   .client .title {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
   .client .details p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
