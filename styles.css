@@ -83,4 +83,9 @@ input#filterLocation {
   .client .details p {
     font-size: 2.0rem;
   }
+  .flag {
+    width: 20px;
+    height: auto;
+    margin: 0 8px;
+  } 
 }
