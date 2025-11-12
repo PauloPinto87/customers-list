@@ -3,7 +3,7 @@
   "short_name": "Customers List",
   "start_url": "./index.html",
   "scope": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "description": "A description for your application",
   "lang": "en",
   "theme_color": "#00A6A0",
