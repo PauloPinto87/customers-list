@@ -12,7 +12,33 @@
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./service-worker.js')
-          .then(() => console.log('Service Worker registrado.'))
+          .then(reg => {
+            console.log('Service Worker registrado.');
+
+            // If there's an updated SW already waiting, prompt the user
+            if (reg.waiting) {
+              if (confirm('Nova versão disponível. Atualizar agora?')) {
+                reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+              }
+            }
+
+            reg.addEventListener('updatefound', () => {
+              const newWorker = reg.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // new update available
+                  if (confirm('Nova versão disponível. Atualizar agora?')) {
+                    newWorker.postMessage({ type: 'SKIP_WAITING' });
+                  }
+                }
+              });
+            });
+
+            // When the new SW activates, reload to get the new content
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+              window.location.reload();
+            });
+          })
           .catch(err => console.error('Erro ao registrar SW:', err));
       }
     </script>
